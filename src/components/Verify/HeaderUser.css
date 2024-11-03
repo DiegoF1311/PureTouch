@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-verify {
+    margin: 2rem auto;
+    width: 90vw;
+    height: 90vh;
+}
+
+.top-verify {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+}
+
+.left-verify {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    background-color: #800000;
+    border-radius: 50px;
+    padding: 0 2rem;
+}
+
+.right-verify {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    color: #800000;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bottom-verify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    width: 80%;
+    white-space: normal;
+    background-color: #FFDADA;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.txt {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.user-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    margin-right: 20px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+/* Estilo del Pop-up */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+.correct {
+    background-color: rgba(0, 128, 0, 0.8); /* Verde translúcido */
+}
+
+.incorrect {
+    background-color: rgba(255, 0, 0, 0.8); /* Rojo translúcido */
+}
+
+/* Estilo de botones de verificación */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.verify-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.verify-button.correct {
+    background-color: #28a745; /* Verde */
+    color: white;
+}
+
+.verify-button.incorrect {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+.container-landing {
+    margin: 2rem auto;
+    width: 90vw;
+    height: 90vh;
+}
+
+.top-landing {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    width: 100%;
+}
+
+.left-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #FFDADA;
+    border-start-start-radius: 50px;
+    border-start-end-radius: 50px;
+}
+
+.left-landing img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.right-landing {
+    width: 75%;
+    height: 80%;
+    background-color: #800000;
+    border-radius: 50px;
+}
+
+.right-landing h1 {
+    text-align: center;
+    width: 60%;
+    margin: 2rem auto;
+    font-size: 2rem;
+    color: white;
+}
+
+.buttom-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+    padding: 1rem;
+    background-color: #FFDADA;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+}
+
+.buttom-landing h1 {
+    margin: 3rem;
+    font-size: 5rem;
+    text-align: center;
+    color: #800000;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form input {
+    height: 3rem;
+    border-radius: 50px;
+    border-color: #800000;
+    margin: 2rem;
+    text-align: center;
+}
+
+.form button {
+    height: 3rem;
+    width: 20rem;
+    margin: auto;
+    border-radius: 50px;
+    border-color: #800000;
+    color: white;
+    background-color: #800000;
+    font-weight: bold;
+}

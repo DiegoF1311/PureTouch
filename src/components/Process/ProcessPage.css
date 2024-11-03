@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+.container-process {
+    margin: 2rem auto;
+    width: 90vw;
+    height: 90vh;
+}
+
+.top-process {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    margin-bottom: 2rem;
+}
+
+.top-left-process {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    background-color: #800000;
+    border-radius: 50px;
+    padding: 0 2rem;
+}
+
+.user-photo {
+    width: 9rem;
+    height: 9rem;
+}
+
+.info {
+    margin: 3.5rem auto;
+
+}
+
+.info p {
+    font-size: 1.5rem;
+    color: #FFDADA;
+}
+
+.top-right-process {
+    width: 55%;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #800000;
+}
+
+.buttom-process {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75%;
+}
+
+.buttom-left-process {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.cam-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 60%;
+    background-color: #800000;
+    border-radius: 50px;
+}
+
+.timer {
+    text-align: center;
+    padding: 1.8rem;
+    width: 70%;
+    height: 6rem;
+    margin-top: -3rem;
+    background-color: #FFDADA;
+    border-radius: 50px;
+}
+
+.timer p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #800000;
+}
+
+.buttom-right-process {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 55%;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 30%;
+    height: 45%;
+    border-radius: 45px;
+    background-color: #FFDADA;
+    font-size: large;
+    font-weight: bold;
+    color: #800000;
+}
+
+.timer-step {
+    text-align: center;
+    padding: 0.2rem;
+    width: 50%;
+    height: 2rem;
+    border-radius: 50px;
+    background-color: #800000;
+    color: white;
+}
